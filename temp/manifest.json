@@ -1,0 +1,61 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "id": "74833190-b984-11ed-9195-51b3ddbe717a",
+  "version": "0.0.1",
+  "packageName": "msteamsmeetingsappsdemo",
+  "developer": {
+    "name": "Arun Kumar Perumal",
+    "websiteUrl": "https://19bc-52-137-63-152.ngrok.io",
+    "privacyUrl": "https://19bc-52-137-63-152.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://19bc-52-137-63-152.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "Stand-up Agenda",
+    "full": "Stand-up Agenda"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://19bc-52-137-63-152.ngrok.io/standUpAgendaTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "groupchat"
+      ],
+      "context": [
+        "meetingChatTab",
+        "meetingDetailsTab",
+        "meetingSidePanel",
+        "meetingStage"
+      ],
+      "meetingSurfaces": [
+        "sidePanel",
+        "stage"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "19bc-52-137-63-152.ngrok.io"
+  ],
+  "showLoadingIndicator": false,
+  "webApplicationInfo": {
+    "id": "44d2581d-04f5-40b7-8a40-d2b6d8906c12",
+    "resource": "api://akpstandupagendademo.azurewebsites.net/44d2581d-04f5-40b7-8a40-d2b6d8906c12"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "Arun Kumar Perumal"
+    },
+    "libraryName": "learnMsTeamsMeetingsApps",
+    "generator-version": "4.1.0"
+  }
+}
